@@ -1,10 +1,10 @@
 ---GearToMake - init.lua
 --by burdsjm
---Date 3/18/2024
---Modified by AI Assistant 5/28/2025 (Version 4.7)
+--Date 3/24/2026
+--Version 4.8
 local mq = require 'mq'
 local items_currency_map = require 'itemdb'
-local version = '4.7'
+local version = '4.8'
 local args = {...}
 local default_message_format = '/dgt I have %s %s to make.'
 local function check_and_report_item(item_name, message_format)
